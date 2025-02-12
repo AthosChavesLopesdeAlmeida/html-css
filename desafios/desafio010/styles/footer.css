@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "idroid";
+  src: url("../pacote-projeto-d010/fontes/idroid.otf");
+}
+
+.rodape {
+  background-color: rgb(7, 88, 7);
+
+  position: relative;
+  bottom: -2850px;
+
+  color: white;
+  font-weight: bold;
+
+  height: 40px;
+
+  max-width: 1499px;
+  min-width: 320px;
+  left: 0px;
+  right: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}

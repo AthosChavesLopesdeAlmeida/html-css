@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(38, 38, 38);
+}
+
+.nome-curso {
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.trailer {
+  position: relative;
+  left: 430px;
+}
+
+.completo {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.voltar{
+  display: flex;
+  justify-content: center;
+}

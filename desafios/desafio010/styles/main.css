@@ -1,0 +1,125 @@
+
+@font-face {
+  font-family: "idroid";
+  src: url("../pacote-projeto-d010/fontes/idroid.otf");
+}
+
+main {
+  max-width: 900px;
+  min-width: 320px;
+  height: 2500px;
+
+  background-color: #fff;
+
+  position: absolute;
+  top: 250px;
+
+  box-shadow: 1px 10px 53px 0px rgba(0,0,0,0.75);
+
+  border-radius: 5px;
+
+  
+}
+
+.historia-titulo {
+  color: rgb(34, 94, 34);
+  font-family: "idroid";
+
+  font-size: 2em;
+  padding-left: 20px;
+}
+
+
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.03em;
+  
+  text-indent: 15px;
+  
+  padding-left: 20px
+
+  
+}
+
+.subtitulo {
+  background: rgb(255,255,255);
+  background: linear-gradient(261deg, rgba(255,255,255,0.6139705882352942) 0%, rgba(62,166,77,0.9725140056022409) 100%);
+  color: rgb(28, 84, 28);
+  
+  font-family: "idroid";
+
+  font-size: 1.7em ;
+  text-align: left;
+
+  position: relative;
+  left: 20px;
+  
+  margin-top: 30px;
+  margin-left: 0px;
+
+  justify-content: left;
+}
+
+.img-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.vid-container {
+  background-color: rgb(27, 71, 27);
+
+  height: 400px;
+  width: 100%;
+
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hell-nah-bruh {
+  width: 90%;
+  height: 550px;
+
+  background-color: rgba(196, 196, 196, 0.852);
+
+  margin-top: 40px;
+
+  position: absolute;
+  left: 45px;
+
+  border-radius: 12px;
+}
+
+.aprender-mais {
+  color: white;
+  background-color: rgba(35, 120, 35, 0.89);
+
+  position: relative;
+  top: 0;
+  margin: 0;
+
+  font-size: 1.3em;
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+  font-weight: bold;
+  height: 30px;
+
+  align-items: center;
+  display: flex;
+}
+
+ul > li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+.last {
+  position: relative;
+  bottom: -600px;
+}

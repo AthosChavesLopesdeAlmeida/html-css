@@ -1,0 +1,77 @@
+
+@font-face {
+  font-family: "idroid";
+  src: url("../pacote-projeto-d010/fontes/idroid.otf");
+}
+
+
+header {
+  background: rgb(25,25,25);
+  background: linear-gradient(0deg, rgba(3, 38, 2, 0.875) 0%, rgb(21, 106, 34) 51%, rgb(32, 132, 47) 100%);
+  
+  max-width: 100%;
+  min-width: 320px;
+  height: 250px;
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  display: grid;
+  justify-items: center; 
+}
+
+
+.title {
+  font-size: 2.4em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+  text-align: center;
+
+  
+  
+}
+
+h2 {
+
+  font-size: 1.2em;
+
+  width: 700px;
+  margin: 10px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+nav {
+  
+  display: block;
+}
+
+nav > p {
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  transition: hover 1s;
+}
+
+nav > p:hover {
+  color: rgb(0, 80, 0);
+  background-color: rgba(255, 255, 255, 0.532);
+  
+  padding: 5px;
+  
+  cursor: pointer;
+  
+  border-radius: 5px;
+}

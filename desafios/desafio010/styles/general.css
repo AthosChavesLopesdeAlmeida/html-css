@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "idroid";
+  src: url("../pacote-projeto-d010/fontes/idroid.otf");
+}
+
+
+body {
+  height: 2850px;
+  background-color: wheat;
+
+  display: flex;
+  justify-content: center;
+}
