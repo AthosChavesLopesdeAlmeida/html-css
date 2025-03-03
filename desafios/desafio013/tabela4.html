@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      table {
+        width: 800px;
+        border-collapse: collapse;
+      }
+
+      td, th {
+        border: 1px solid #000;
+        padding: 10px;
+      }
+
+      .dif {
+        background-color: grey;
+        color: white;
+        font-weight: bolder;
+      }
+
+      .areas {
+        font-weight: bolder;
+
+      }
+
+      .centro {
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th class="dif" rowspan="2">Área</th>
+          <th class="dif" rowspan="2">Disciplinas</th>
+          <th class="dif" colspan="2">Notas</th>
+          <th class="dif" rowspan="2">Média</th>
+        </tr>
+        <tr>
+          <th class="dif">Nota 1</th>
+          <th class="dif">Nota 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="areas" rowspan="4">Exatas</th>
+          <td class="esq">Matemática</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+        </tr>
+        <tr>
+          <td class="esq">Física</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+        </tr>
+        <tr>
+          <td class="esq">Química</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+        </tr>
+        <tr>
+          <td class="esq">Biologia</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+        </tr>
+        <tr>
+          <th colspan="4" class="dif" style="text-align: left;">Média de Exatas</th>
+          <td class="dif" style="text-align: center;">10.0</td>
+        </tr>
+        <tr>
+          <th class="areas" rowspan="2">Humanas</th>
+          <td class="esq">História</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+        </tr>
+        <tr>
+          <td class="esq">Geografia</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+          <td class="centro">10.0</td>
+          <tr>
+            <th colspan="4" class="dif" style="text-align: left;">Média de Humanas</th>
+            <td class="dif" style="text-align: center;">10.0</td>
+          </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
