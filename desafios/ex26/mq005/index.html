@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaq.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
   </head>
   <body>
@@ -47,5 +48,21 @@
         itens.style.display = 'block';
       }
     }
+
+    function toggleMenuOnResize() {
+      const itens = document.getElementById('itens');
+      
+      if (window.innerWidth > 768) {
+        itens.style.display = 'block'; // Mostra o menu
+      } else {
+        itens.style.display = 'none'; // Oculta o menu
+      }
+    }
+
+    // Chama a função ao carregar a página
+    window.onload = toggleMenuOnResize;
+
+    // Chama a função ao redimensionar a janela
+    window.onresize = toggleMenuOnResize;
   </script>
 </html>
